@@ -1,0 +1,14 @@
+{
+  "name": "tstodo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "faris <farischugthai@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "tsc -b --pretty",
+    "start": "node src/index.js"
+  }
+}
