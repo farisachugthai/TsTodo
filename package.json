@@ -8,7 +8,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "build": "tsc -b --pretty",
+    "build": "tsc --pretty -p .",
     "start": "node src/index.js"
   }
 }

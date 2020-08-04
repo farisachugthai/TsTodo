@@ -1,3 +1,9 @@
 {
-  "include": ["src"]
+  "include": ["src"],
+  "compilerOptions": {
+    // note: dont include files because without it, tsc will automatically
+    // include all files and subfolders
+    "target": "es5",
+    "module": "commonjs"
+  }
 }
